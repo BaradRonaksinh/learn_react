@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import StateExmple from './StateExmple';
+// import Custom1 from './Custom1';
+// import PropsWork from './PropsWork';
 
 function App() {
+  let arr = [12,23,45,98]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>My First React components</h3>
+
+      {/* <Custom1 /> */}
+      {/* <PropsWork myName="ronak" myAge="21" arr_obj={arr}/> */}
+      <StateExmple />
     </div>
   );
 }
